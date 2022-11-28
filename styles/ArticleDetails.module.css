@@ -23,3 +23,22 @@
     font-style: italic;
     border-bottom: 1px solid var(--primary);
 }
+
+.details h2 {
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+}
+
+.details h3 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.details h4 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.details p {
+    margin: 0.5em 0;
+}
