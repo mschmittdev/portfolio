@@ -1,0 +1,32 @@
+.article {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 470px;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.article .img {
+    overflow: hidden;
+}
+
+.article img {
+    object-fit: cover;
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 32px;
+    background-color: var(--gray);
+}
+
+.content h3 {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-top: 0;
+}

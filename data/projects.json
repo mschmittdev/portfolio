@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Simple Kanji",
+        "url": "https://simplekanji.com",
+        "img": "simplekanji.png",
+        "description": "Learn Japanese characters called kanji in a guided manner using SRS (Spaced Repetition System)",
+        "stack": [
+            "Next.js",
+            "Postgres"
+        ]
+    },
+    {
+        "name": "Workout Buddy",
+        "url": "https://github.com/mschmittdev/workout-tracker",
+        "img": "workout-buddy.png",
+        "description": "Keep track of your workout sessions",
+        "stack": [
+            "React",
+            "Express.js",
+            "MongoDB",
+            "Node.js"
+        ]
+    }
+]

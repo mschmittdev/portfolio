@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0 40px;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+}
+
+.social a {
+    display: flex;
+    align-items: center;
+}
+
+.social svg:hover {
+    color: var(--primary);
+}

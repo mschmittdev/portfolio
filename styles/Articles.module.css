@@ -1,0 +1,22 @@
+.container h1 {
+    text-align: center;
+}
+
+.container ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+
+}
+
+@media (min-width: 768px) {
+    .articles {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } 
+}
