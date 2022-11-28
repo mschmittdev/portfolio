@@ -6,7 +6,7 @@ export default function Document() {
             <Head>
                 <script defer type="text/javascript" src="https://api.pirsch.io/pirsch.js"
                     id="pirschjs"
-                    data-code="4p8jVcHjstSl5ieePDap5AQln3DqfIMp"></script>
+                    data-code="4JNOsQbvrnHus0XALQEcg0BhB2Dq5NQz"></script>
             </Head>
             <body>
                 <Main />
