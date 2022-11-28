@@ -11,7 +11,7 @@ export default function ArticleCard({ article }: ArticleCardProps) {
     return (
         <Link href={`/articles/${article.slug}`} className={styles.article}>
             <div className={styles.img}>
-                <Image src={`/img/articles/${article.img}`} alt={article.title} width={400} height={200} />
+                <Image src={article.img} alt={article.title} width={400} height={200} />
             </div>
             <div className={styles.content}>
                 <div>

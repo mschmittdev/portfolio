@@ -25,7 +25,7 @@ export function getSortedArticlesPreviewData(): ArticlePreview[] {
       slug,
       title: matterResult.data.title,
       subtitle: matterResult.data.subtitle,
-      img: matterResult.data.img,
+      img: `/img/articles/${matterResult.data.img}`,
       createdAt: matterResult.data.createdAt,
       updatedAt: matterResult.data.updatedAt
     }
@@ -71,7 +71,7 @@ export async function getArticleData(slug: string) {
     title: matterResult.data.title,
     subtitle: matterResult.data.subtitle,
     body: contentHtml,
-    img: process.env.VERCEL_URL ?? 'http://localhost:3000' + `/img/articles/${matterResult.data.img}`,
+    img: `/img/articles/${matterResult.data.img}`,
     createdAt: matterResult.data.createdAt,
     updatedAt: matterResult.data.updatedAt
   }
